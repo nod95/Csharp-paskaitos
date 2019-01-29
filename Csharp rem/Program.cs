@@ -82,6 +82,10 @@ namespace Csharp_rem
             {
                 Console.WriteLine("Skaicius dalinasi is 5");
             }
+            else if (sk % 6 == 0)
+            {
+                Console.WriteLine("Skaicius dalinasi is 6");
+            }
             else if (true)
             {
                 Console.WriteLine("Klaida! Skaicius is nieko nesidalina. :(");
